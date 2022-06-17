@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*********Regole di Reset**********/
+
+
+/*********Regole di **********/
+/*********Regole di **********/
+
+
+
+/*********Regole di **********/
+/*********Regole di **********/
+
+footer{
+    height: 200px;
+    background-color: black;
+}
+
+#destra{
+    height:calc(100vh - 200px) ;
+    background-color: blue;
+    display: flex;
+}
+
+.container{
+    width: 70%;
+    height: 100%;
+    border: 2px dotted white;
+}
+
+.inside-bar{
+    width: 30%;
+    height: 100%;
+    border: 2px dotted white;
+}
+
+
+
+
+/*********Regole di **********/
+/*********Regole di **********/
+
+
+/*********Regole di **********/
+/*********Regole di **********/
+
+
+
+
+
+/*********Regole di **********/
+/*********Regole di **********/
+
+
+
+
+
+
+
+
+/*********Regole di **********/
+/*********Regole di **********/
+
+
+
+
+
+
+
+
+
+
+
+
+/*********Regole di **********/
+/*********Regole di **********/
