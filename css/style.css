@@ -26,13 +26,12 @@ footer{
 }
 
 .container{
-    width: 70%;
-    height: 100%;
+    flex-grow: 1;
     border: 2px dotted white;
 }
 
 .inside-bar{
-    width: 30%;
+    width: 200px;
     height: 100%;
     border: 2px dotted white;
 }
