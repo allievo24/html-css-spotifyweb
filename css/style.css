@@ -6,52 +6,196 @@
 /*********Regole di Reset**********/
 
 
+
+/*********Regole di debug**********/
+
+.debug .container{
+    border: 3px dotted rgb(15, 183, 93);
+ 
+}
+
+.debug .inside-bar{
+    border: 3px dotted white;
+}
+
+.debug .box-img{
+    background-color: black;
+   
+}
+.debug .img{
+ border: 2px dotted white;
+
+
+}
+
+/********* fine Regole di debug**********/
+
+/********* Inizio Regole di colori**********/
+
+:root{
+    --main-color:rgb(20, 25, 34);
+    --inside-bar:rgb(0, 0, 0);
+    --nav-color:rgb(120, 123, 128);
+    --text1-color:rgb(129, 131, 136);
+    --text2-color:#FBFAFE;
+    --playr-color:rgb(40, 40, 40);
+    --footer-color:rgb(31, 31, 31);
+    --header-color:rgb(8, 11, 18);  
+}
+/********* fine Regole di colori**********/
+
+
+/********* inizio Regole di nav**********/
+
+.container{
+    flex-grow: 1;
+    overflow: scroll;
+    width: 100vw
+
+    
+    
+}
+.btn{
+  background-color: aliceblue;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  margin-top: 1.5rem;
+  display: inline-block;
+   
+}
+.upgrade{
+    text-align: end;
+    background-color: black;
+    height: 100px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/********* fine Regole di nav**********/
+
+
+
+/*********Regole comuni **********/
+
+.text-align{
+    text-align: center;
+}
+
+.dflex{
+ display: flex;
+ 
+
+}
+
+.space{
+ justify-content: space-between;
+
+}
+
+.mt-30{
+   margin-top: 2rem; 
+}
+
+
+
+
+
+
+
+
+/*********fine Regole comuni **********/
+
+
+
+
+
+
+/*********Regole di **********/
+.img{
+    width: calc(100% / 6 - 1rem);
+    margin: auto;
+    
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+
+
+/*********Regole di **********/
+
+
+#principale{
+    height:calc(100vh - 200px);
+    background-color: rgba(255, 0, 72, 0.36);
+    display: flex;
+    width: 100vw
+}
+
+
+.inside-bar{
+    width: 200px;
+    height: 100%;
+}
+
+
+
+
+/*********Regole di colori **********/
+
+/*********Regole di **********/
+
+
 /*********Regole di **********/
 /*********Regole di **********/
 
 
 
+
+
 /*********Regole di **********/
 /*********Regole di **********/
+
+
+
+
+
+
+
+
+/*********Regole di **********/
+/*********Regole di **********/
+
+
+
+
+
+
+
+
+
+
+
+
+/*********Regole difooter **********/
 
 footer{
     height: 200px;
     background-color: black;
 }
 
-#destra{
-    height:calc(100vh - 200px) ;
-    background-color: blue;
-    display: flex;
-}
-
-.container{
-    flex-grow: 1;
-    border: 2px dotted white;
-}
-
-.inside-bar{
-    width: 200px;
-    height: 100%;
-    border: 2px dotted white;
-}
-
-
-
-
-/*********Regole di **********/
-/*********Regole di **********/
-
-
-/*********Regole di **********/
-/*********Regole di **********/
-
-
-
-
-
-/*********Regole di **********/
-/*********Regole di **********/
 
 
 
@@ -59,20 +203,4 @@ footer{
 
 
 
-
-/*********Regole di **********/
-/*********Regole di **********/
-
-
-
-
-
-
-
-
-
-
-
-
-/*********Regole di **********/
-/*********Regole di **********/
+/*********fine Regole di footer **********/
