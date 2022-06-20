@@ -28,6 +28,15 @@
 
 }
 
+.debug .menu-top{
+    border: 2px solid black;
+}
+
+.debug #menu .aside-bar .menu-top .logo{
+
+}
+
+
 /********* fine Regole di debug**********/
 
 /********* Inizio Regole di colori**********/
@@ -114,7 +123,7 @@ a{
 /*********Regole di **********/
 .img{
     width: calc(100% / 6 - 1rem);
-    margin: auto;
+   margin-left: 1rem;
 }
 
 img{
@@ -133,24 +142,38 @@ img{
     display: flex;
 }
 
-.container{
-    flex-grow: 1;
-    
- 
-}
-
 .aside-bar{
-    width: 200px;
-    height: 100%;
+    width:200px;
+    height:100%;
 }
 #destra{
     width: 100%;
     overflow-y: scroll;
 }
 
-
+.radius{
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 /*********Regole di colori **********/
+
+.menu-bottom{
+  height: 100px;
+  width:100%;
+  background-color: aqua;
+
+}
+.menu-top{
+    width: 100%;
+    height: calc(100% - 100px);
+}
+.logo{
+  /*  width: 100px;
+    border: 3px border rgb(59, 16, 177);*/
+    padding: 0.5rem 2rem;
+}
+
 
 /*********Regole di **********/
 
