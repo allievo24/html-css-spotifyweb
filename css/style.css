@@ -96,7 +96,10 @@ a{
  
 
 }
-
+.dcol{
+    
+   flex-direction: column; 
+}
 .space{
  justify-content: space-between;
 
@@ -172,6 +175,20 @@ img{
   /*  width: 100px;
     border: 3px border rgb(59, 16, 177);*/
     padding: 0.5rem 2rem;
+}
+
+.box{
+   width: 95%;
+   margin: auto;
+   background-color: rgb(22, 20, 162);
+}
+
+.whi{
+    width: 23px;
+}
+
+.menu-top .box ul li{
+   
 }
 
 
