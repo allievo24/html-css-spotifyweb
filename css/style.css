@@ -20,24 +20,45 @@
 
 .debug .box-img{
     background-color: black;
-   
 }
 .debug .img{
  border: 2px dotted white;
-
-
 }
 
 .debug .menu-top{
     border: 2px solid black;
 }
 
-.debug #menu .aside-bar .menu-top .logo{
+.debug footer{
+    background-color: rgb(123, 14, 14);
+}
+.debug #principale{
+    background-color: rgba(255, 0, 72, 0.36);
+}
 
+ .debug .upgrade{  
+background-color: black;
+ }
+
+.debug .menu-bottom{
+    background-color: aqua;
 }
 
 
-/********* fine Regole di debug**********/
+.debug .right{
+    background-color: rgb(15, 162, 35);
+  }
+  .debug .center{
+     background-color: rgb(15, 94, 162);
+      
+  }
+    
+    .debug .left{
+     background-color: aliceblue; 
+  }
+
+
+ /********* fine Regole di debug**********/
 
 /********* Inizio Regole di colori**********/
 
@@ -67,7 +88,7 @@
 }
 .upgrade{
     text-align: end;
-    background-color: black;
+    
     height: 100px;
 }
 
@@ -113,10 +134,11 @@ a{
  
 
 }
-.dcol{
-    
-   flex-direction: column; 
+.fw{    
+  flex-wrap: wrap; 
 }
+
+
 .space{
  justify-content: space-between;
 
@@ -154,7 +176,7 @@ a{
 
 #principale{
     height:calc(100vh - 200px);
-    background-color: rgba(255, 0, 72, 0.36);
+    
     display: flex;
 }
 
@@ -181,7 +203,7 @@ a{
 .menu-bottom{
   height: 100px;
   width:100%;
-  background-color: aqua;
+  
 }
 
 .menu-top{
@@ -207,7 +229,7 @@ a{
 
 .nome-play {
     flex-grow: 1;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .box{
@@ -263,14 +285,8 @@ a{
 
 footer{
     height: 200px;
-    background-color: rgb(123, 14, 14);
 }
 
-.left{
-   
-  
-   background-color: aliceblue; 
-}
 
 .album{
     width: 50px;
@@ -283,30 +299,51 @@ footer{
 }
 
 
+.playr{
+    width: calc(99%);
+    margin: auto;
+    padding-top: 1rem;
+    border: 2px dotted ;
+}
 
-
+.left{
+   width:25% ;
+}
 
 
 
 
 
 .center{
-   height: 50px;
-   background-color: rgb(15, 94, 162); 
+   
+   width: 25%;
+   justify-content: space-between; 
+}
+
+.barra-playr{
+    border: 2px dotted ;
+    width: 20px;
+ 
+}
 
 
+.b-pl{
 
 }
+
+
+
+
+
 .right{
     height: 50px;
-    background-color: rgb(15, 162, 35);
+    width:25% ;
+    justify-content: end;
 
 }
 
 
 
-
-
-
+  
 
 /*********fine Regole di footer **********/
