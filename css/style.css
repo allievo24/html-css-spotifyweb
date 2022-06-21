@@ -76,11 +76,27 @@
     list-style: none;
      width: 80%;
      margin:auto;
+    
+
 }
 
 a{
     text-decoration: none;
+    color: var(--text1-color);
 }
+
+#destra .container p,h3{
+    color: var(--text2-color);
+    
+}
+
+#destra .container span{
+    color: var(--text1-color);
+   
+
+}
+
+
 
 /********* fine Regole di nav**********/
 
@@ -247,18 +263,45 @@ a{
 
 footer{
     height: 200px;
-    background-color: black;
+    background-color: rgb(123, 14, 14);
 }
 
 .left{
-   height: 100%;
+   
+  
    background-color: aliceblue; 
+}
+
+.album{
+    width: 50px;
+    height: 50px;
+    border: 2px dotted black;
+}
+.playr .album img{
+    width:100%;
+    
 }
 
 
 
-.center{}
-.right{}
+
+
+
+
+
+
+.center{
+   height: 50px;
+   background-color: rgb(15, 94, 162); 
+
+
+
+}
+.right{
+    height: 50px;
+    background-color: rgb(15, 162, 35);
+
+}
 
 
 
