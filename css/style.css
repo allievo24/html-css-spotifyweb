@@ -88,8 +88,15 @@ background-color: black;
 }
 .upgrade{
     text-align: end;
-    
-    height: 100px;
+    height: 80px;
+    width:calc(100vw - 200Px);
+    position: fixed;
+    top: 0;
+    left:200px;
+}
+
+#destra{
+    margin-top: 80px;
 }
 
 #destra nav ul{
@@ -97,8 +104,6 @@ background-color: black;
     list-style: none;
      width: 80%;
      margin:auto;
-    
-
 }
 
 a{
@@ -144,11 +149,14 @@ a{
 
 }
 
-.mt-30{
+.mb-2{
    margin-top: 2rem; 
 }
 
 
+.mt-2{
+  margin-top: 2rem;
+}
 
 
 
@@ -165,8 +173,22 @@ a{
 /*********Regole di **********/
 .img{
     width: calc(100% / 6 - 1rem);
-   margin-left: 1rem;
+    margin-left: 1rem;
+    position: relative;
 }
+
+.overlay{
+    background-color:red;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    line-height: 257px;
+    display: none;       
+}
+
+
 
 
 
@@ -175,7 +197,7 @@ a{
 
 
 #principale{
-    height:calc(100vh - 200px);
+    height:calc(100vh - 80px);
     
     display: flex;
 }
@@ -202,7 +224,7 @@ a{
 
 .menu-bottom{
   height: 100px;
-  width:100%;
+   width:100%;
   
 }
 
@@ -211,6 +233,7 @@ a{
     height: calc(100% - 100px);
     display: flex;
     flex-direction: column;
+    min-height: 300px;
 }
 
 .logo{
@@ -235,27 +258,33 @@ a{
 .box{
    width: 95%;
    margin: auto;
-   background-color: rgb(22, 20, 162);
+   background-color: rgb(34, 20, 162);
 }
 
 .whi{
     width: 23px;
 }
 
-.menu-top .box ul li{
-   
+
+
+
+/*********Regole di hover**********/
+
+
+
+/*********Regole di  **********/
+
+
+
+
+
+/*********Regole di overlay **********/
+
+.overlay :hover{
+    display:block; 
 }
 
 
-/*********Regole di **********/
-
-
-/*********Regole di **********/
-/*********Regole di **********/
-
-
-
-
 
 /*********Regole di **********/
 /*********Regole di **********/
@@ -267,8 +296,7 @@ a{
 
 
 
-/*********Regole di **********/
-/*********Regole di **********/
+
 
 
 
@@ -284,18 +312,23 @@ a{
 /*********Regole difooter **********/
 
 footer{
-    height: 200px;
+    height: 80px;
+    z-index: 2;
 }
 
 
 .album{
-    width: 50px;
+    width: 100%;
     height: 50px;
     border: 2px dotted black;
 }
 .playr .album img{
     width:100%;
     
+}
+
+.sinister{
+    width: 50px;
 }
 
 
@@ -315,20 +348,17 @@ footer{
 
 
 .center{
-   
-   width: 25%;
-   justify-content: space-between; 
+   width: 25%;  
 }
 
-.barra-playr{
-    border: 2px dotted ;
-    width: 20px;
- 
+.play{
+    padding: 0rem 4rem ;
 }
 
-
-.b-pl{
-
+.barra-ply{
+    border: 2px solid ;
+    width: 100%;
+    margin-top: 1rem;
 }
 
 
@@ -336,14 +366,62 @@ footer{
 
 
 .right{
-    height: 50px;
-    width:25% ;
-    justify-content: end;
+   
+    width:25%;
+    padding-left: 2rem;
+
 
 }
 
+
+.barra-volume{
+    border: 2px solid ;
+    width: 100px;
+
+}
 
 
   
 
 /*********fine Regole di footer **********/
+
+
+
+
+/*********Regole di **********/
+
+
+@media screen and (max-width: 992px) {
+     .img {
+        
+        width: calc(100% / 4);
+ 
+    }
+     
+}
+
+@media all and (max-width: 576px) {
+   
+    .aside-bar{
+        width:50px;
+        height:100%;
+    }
+    .upgrade{
+        text-align: end;
+        height: 80px;
+        width:calc(100vw - 50Px);
+        position: fixed;
+        top: 0;
+        left:50px;
+    }
+
+
+
+}
+
+
+
+
+
+
+/*********Regole di **********/
