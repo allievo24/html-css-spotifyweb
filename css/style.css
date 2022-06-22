@@ -127,7 +127,6 @@ a{
 #destra .container .PLB span{
       color: var(--text1-color);
       display: block;
-      
 
 }
 
@@ -296,7 +295,7 @@ h3{
 
 /*********Regole di overlay **********/
 
-.overlay :hover{
+.img:hover .overlay{
     display:block; 
 }
 
