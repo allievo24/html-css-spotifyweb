@@ -429,15 +429,16 @@ footer{
         padding-right: 1rem;
     }
 
-    #navigazione_principale ,span,.fa-solid,.nome-play {
+    #navigazione_principale ,span,.nome-play {
         display: none;
 
     }
     #navigazione_principale h3{
         display: none;
-
     }
-
+    .upgrade nav .dflex{
+        flex-wrap: wrap;
+    }
 }
 
 
