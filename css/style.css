@@ -421,10 +421,21 @@ footer{
     }*/
     #destra nav .dflex {
         flex-wrap: wrap;
+        justify-content: center;
+        
     }
+    #destra nav .dflex li {
+        margin:0px 10px;
 
+    }
+    
 
-
+#destra nav ul {
+    padding: 1rem 5rem;
+    list-style: none;
+    width: 100%;
+    margin: auto;
+}
 
 
 }    
@@ -446,15 +457,24 @@ footer{
         padding-right: 1rem;
     }
 
-    #navigazione-principale, h3 .icon ,.nome-play {
+    /* #navigazione-principale, h3 .icon ,.nome-play {
         display: none;
+    } */
 
+    /*.menu-top #navigazione-principale,*/
+    .menu-top h3,
+    .menu-top .nome-play
+    {
+        display: none;
     }
+
     #navigazione-principale h3{
         display: none;
     }
     
-  
+    #navigazione-principale span{
+        display: none;
+    }
 
 
 }   
